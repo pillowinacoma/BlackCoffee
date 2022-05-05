@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        D3 demo
+    </title>
+    <link rel="shortcut icon"
+        href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fsouthpark%2Fimages%2F2%2F24%2FBudtender-towelie.png%2Frevision%2Flatest%2Fscale-to-width-down%2F310%3Fcb%3D20171107124235&f=1&nofb=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script async src="./js/before.js"></script>
+
+</head>
+
+<body>
+    <script async src="./js/script.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-primary" onclick="tracksByArtist()">Tracks by
+                    artists</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-primary" onclick="tracksByAlbum()">Tracks by album</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-primary" onclick="artistsByGenre()">Artists by
+                    Genre</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-primary" onclick="musicThroughTime()">Music in
+                    Time</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-primary" onclick="streamingTime()">Streaming
+                    history</button>
+            </div>
+        </div>
+        <div class="container">
+            <div id="display" class="row">
+
+            </div>
+        </div>
+</body>
+
+</html>
